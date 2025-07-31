@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>کافه رستوران</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="teal">
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">کافه رستوران</a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#menu">منو</a></li>
+        <li><a href="#about">درباره ما</a></li>
+        <li><a href="#contact">تماس</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#menu">منو</a></li>
+    <li><a href="#about">درباره ما</a></li>
+    <li><a href="#contact">تماس</a></li>
+  </ul>
+
+  <header class="hero">
+    <div class="container center">
+      <h1>خوش آمدید</h1>
+      <p>به کافه رستوران ما سر بزنید!</p>
+    </div>
+  </header>
+
+  <section id="menu" class="container section scrollspy">
+    <h2 class="center">منو</h2>
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://source.unsplash.com/featured/?coffee" alt="قهوه ویژه" />
+          </div>
+          <div class="card-content">
+            <span class="card-title">قهوه ویژه</span>
+            <p>با بهترین دانه‌ها تهیه شده است.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://source.unsplash.com/featured/?sandwich" alt="ساندویچ" />
+          </div>
+          <div class="card-content">
+            <span class="card-title">ساندویچ تازه</span>
+            <p>با مواد اولیه روز.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://source.unsplash.com/featured/?cake" alt="کیک" />
+          </div>
+          <div class="card-content">
+            <span class="card-title">کیک روز</span>
+            <p>دستپخت سرآشپز ما.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="teal lighten-5 section scrollspy">
+    <div class="container">
+      <h2 class="center">درباره ما</h2>
+      <p class="center">ما در قلب شهر بهترین طعم‌ها را برای شما آماده کرده‌ایم.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="container section scrollspy">
+    <h2 class="center">تماس</h2>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12 m6">
+            <input id="name" type="text" />
+            <label for="name">نام</label>
+          </div>
+          <div class="input-field col s12 m6">
+            <input id="email" type="email" />
+            <label for="email">ایمیل</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="message" class="materialize-textarea"></textarea>
+            <label for="message">پیام</label>
+          </div>
+        </div>
+        <button class="btn waves-effect teal" type="submit">ارسال</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="page-footer teal">
+    <div class="container center">
+      © ۲۰۲۴ کافه رستوران
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
