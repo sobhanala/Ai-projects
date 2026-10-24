@@ -1,0 +1,21 @@
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  direction: rtl;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x900/?cafe') center/cover no-repeat;
+  color: #fff;
+  padding: 150px 0;
+}
+
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 80px 0;
+  }
+}
