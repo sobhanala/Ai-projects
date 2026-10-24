@@ -1,4 +1,4 @@
-# AI Projects â€” Starter Repository
+# AI Projects — Starter Repository
 
 This repository currently contains a license file and no project source code.
 
